@@ -1,0 +1,72 @@
+name: restaurant_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  pinput: ^3.0.1
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  http: ^1.2.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  smooth_page_indicator: ^1.1.0
+  shared_preferences: ^2.2.2
+  easy_date_timeline: ^1.0.2
+  intl: ^0.19.0
+  simple_grid: ^0.1.4
+  dio: ^5.4.1
+  http_parser: ^4.0.2
+  connectivity_plus: ^6.0.2
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.2.8
+  flutter_slidable: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/food5.jpg
+
+  fonts:
+    - family: SF Pro Rounded
+      fonts:
+        - asset: assets/fonts/SFProRoundedHeavy.ttf
+          weight: 800
+        - asset: assets/fonts/SFProRoundedRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProRoundedSemibold.ttf
+          weight: 600
+        - asset: assets/fonts/SFProRoundedBold.ttf
+          weight: 700
+    - family: SF Pro Text
+      fonts:
+        - asset: assets/fonts/SFProTextSemibold.ttf
+          weight: 600
+        - asset: assets/fonts/SFProTextRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+
+
